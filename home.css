@@ -1,0 +1,172 @@
+html {
+
+}
+
+h1 {
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 60px;
+  text-align: center;
+  font-weight: bolder;
+  display: block;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+h2 {
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 48px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+h3 {
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 24px;
+  text-align: center;
+  font-weight: bolder;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+td {
+  width: 200px;
+  text-align: left;
+}
+
+ul {
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 24px;
+}
+
+.buttonbar {
+  width: 100%;
+  text-align: center;
+  background-color: aquamarine;
+}
+
+.button {
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  color: black;
+  background-color: transparent;
+  border: none;
+  font-weight: bolder;
+  display: inline-block;
+}
+
+.goals {
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+#firstbutton {
+  margin-left: 450px;
+  margin-right: 40px;
+}
+
+#username {
+  font-size: 30px;
+  margin-bottom: 0;
+  margin-top: 10%;
+}
+
+#logintext {
+  width: 274px;
+  height: 30px;
+  margin-left: 40%;
+  text-align: center;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 25px;
+}
+
+#loginbutton {
+  background-color: aquamarine;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  width: 280px;
+  font-family: 'Didact Gothic', sans-serif;
+  transition-duration: 0.4s;
+  margin-left: 40%;
+  align-items: center;
+  justify-content: center;
+}
+
+#newgoalinput {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 25px;
+}
+
+#examplequote {
+  text-align: center;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 36px;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 0%;
+}
+
+#examplequoteauthor {
+  text-align: center;
+  font-family: 'Didact Gothic', sans-serif;
+  font-style: italic;
+  font-size: 18px;
+  color: aquamarine;
+}
+
+#directions {
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 24px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+#quotetext {
+  text-align: center;
+  font-family: 'Didact Gothic', sans-serif;
+  height: 100px;
+  width: 400px;
+  margin-left: 36%;
+}
+
+#quotebutton {
+  background-color: aquamarine;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  width: 407px;
+  font-family: 'Didact Gothic', sans-serif;
+  transition-duration: 0.4s;
+  margin-left: 36%;
+  align-items: center;
+  justify-content: center;
+}
+
+#header {
+  font-size: 60px;
+  font-family: 'Didact Gothic', sans-serif;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 60px;
+  text-align: center;
+  font-weight: bolder;
+  display: block;
+  margin-left: 0;
+  margin-right: 0;
+  border: none;
+  background-color: transparent;
+  margin-left: auto;
+  margin-right: auto;
+}

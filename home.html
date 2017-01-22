@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="home.css">
+    <link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Francois+One" rel="stylesheet">
+    <title>Daily Dose</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="newgoal.js"></script>
+
+  </head>
+
+  <body onload="showText();">
+    <div class = "background-image"></div>
+    <h1 class="title"><form method="link" action="/Users/thunguyen/Desktop/Daily%20Dose/templates/home.html"><input type = "submit" value = "DAILY DOSE" id = "header"></form></h1>
+    <div class="buttonbar">
+      <table border="0">
+      <tr>
+      <td><form method="link" action="newgoal.html"><input type = "submit" value="NEW GOAL" class="button" id="firstbutton"></form></td>
+      <td><form method="link" action="motivationalquotes.html"><input type = "submit" value="MOTIVATIONAL QUOTES" class="button"></form></td>
+      <td><form method="link" action="recommendations.html"><input type = "submit" value="RECOMMENDATIONS" class="button"></form></td>
+      </tr>
+    </table>
+    </div>
+    <h2 class="goals">MY GOALS</h2>
+    <p id="directions">Create some new goals and watch them appear here!</p>
+    <p id="directions">When you've made it to the end of the week, click on the goal's checkbox for a cool surprise.</p>
+    <p id="examplequoteauthor">(Don't forget to write some motivational quotes!)</p>
+
+    <ul id = "results" onchange = "validate();">
+
+    </ul>
+  
+    <div id="txtAge" style="display:none">Age is something</div>
+  </body>
+</html>
